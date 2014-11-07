@@ -7,7 +7,7 @@ As a result, I took a clean install of my OS as an oppurtunity to write a good a
 - [Homebrew](#homebrew)
 - [Git](#git)
 
-## [Terminal](terminal)
+## [](terminal)Terminal
 We will spend a lot of time inside Terminal.app. So it's really advised to set up a nice and [solorized](http://ethanschoonover.com/solarized) command-line.
 You will find Terminal.app under `~/Applications/Utilities`.
 Running this commands will install `aliases`(a series of shorten commands), a `.bash_profile` and a `.bash_prompt` that will provide you a colorful and helpful terminal.
@@ -26,7 +26,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.input
 ```
 
 
-## [Homebrew](#homebrew)
+## [](#homebrew)Homebrew
 Homebrew is a nice package manager that makes easier to install and update applications in a blink. In order to install it we first need to install command line tools for Xcode.app.
 
 ### Install Command Line Tools fox Xcode
