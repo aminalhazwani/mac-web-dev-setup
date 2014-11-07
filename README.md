@@ -10,7 +10,7 @@ As a result, I took a clean install of my OS as an oppurtunity to write a good a
 - [Git](#git)
 - [Sublime Text](#sublime-text)
 - [Vim](#vim)
-- [Node.js](#node)
+- [Node.js](#nodejs)
 - [Npm](#npm)
 - [Ruby](#ruby)
 - [Apache](#apache)
@@ -131,7 +131,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.vim/c
 ```
 
 
-## [](#node)Node.js
+## [](#nodejs)Node.js
 Install [Node.js](http://nodejs.org/) with Homebrew
 ```
 $ brew install node
