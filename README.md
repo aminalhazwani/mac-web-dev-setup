@@ -1,3 +1,5 @@
+!! WIP = work in progress
+
 # Mac OS X web development environment
 
 When I first started to work and play in the awesome web development world it was really hard for me to set up a nice and well working local dev envoirment. 
@@ -6,6 +8,14 @@ As a result, I took a clean install of my OS as an oppurtunity to write a good a
 - [Terminal](#terminal)
 - [Homebrew](#homebrew)
 - [Git](#git)
+- [Sublime Text](#sublime-text)
+- [Vim](#vim)
+- [Node.js](#node-js)
+- [Npm](#npm)
+- [Ruby](#ruby)
+- [Apache](#apache)
+- [PHP](#php)
+- [Virtual hosts](#virtual-hosts)
 
 ## [](terminal)Terminal
 We will spend a lot of time inside Terminal.app. So it's really advised to set up a nice and [solorized](http://ethanschoonover.com/solarized) command-line.
@@ -46,7 +56,7 @@ brew doctor
 ```
 you should get: `Your system is ready to brew.`.
 
-## [Git](#git)
+## [](#git)Git
 Git is an awesome tool for developers. To learn more about it and about its super powers I suggest you to read this [article](#).
 
 To install Git run
@@ -68,7 +78,7 @@ $ git config --global user.email "your_email@youremail.com"
 and generate a ssh key following this guide: [https://help.github.com/articles/generating-ssh-keys/](https://help.github.com/articles/generating-ssh-keys/).
 
 
-## Sublime Text
+## [](#sublime-text)Sublime Text
 Sublime Text 2 is my favorite text editor. It's simply awesome. I will here describe how to set some basic users preferences and how to install some important tools.
 
 First download it from the [official site](http://www.sublimetext.com/2).
@@ -101,7 +111,7 @@ $ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/
 ```
 
 
-## Vim
+## [](#vim)Vim
 It can happen – from time to time – that you must edit a file on-the-code inside Terminal.app. And here is where [Vim](#) is helpuful. I prefer it over [nano](#). Both are two ways of coding and writing inside the command-line. To install it type this
 ```
 $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -121,7 +131,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.vim/c
 ```
 
 
-## Node.js
+## [](#node-js)Node.js
 Install [Node.js](#) with Homebrew
 ```
 $ brew install node
@@ -131,16 +141,16 @@ This command installs also the [npm](#) package manages. Node modules are instal
 
 Some packages I couldn't live without are for example [Gulp.js](#) and [SASS](#). But let's keep this guide on simply setting everything necessary as web developer before diving in new and awesome tools.
 
-## NPM
+## [](#npm)NPM
 To install a package the formula is
 ```
 $ npm install <package> 
 ```
 To read through all the possibilities offered by npm I suggest [this](#) guide. I hope I can manage to write soon a guide about getting started with Gulp.js and SASS. Subscribe to my [RSS](#) to stay tuned! 
 
-## Ruby
+## [](#ruby)Ruby
 
-## Apache and PHP
+## [](#Apache)Apache
 ```
 $ sudo apachectl start
 ```
@@ -206,7 +216,7 @@ LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 ```
 
 
-## PHP
+## [](#php)PHP
 ```
 $ sudo nano /etc/apache2/httpd.conf
 ```
@@ -248,7 +258,7 @@ $ sudo chown -R _www ~/Sites/
 ```
 
 
-## Virtual Host
+## [](#virtual-hosts)Virtual Hosts
 ```
 $ sudo nano /etc/apache2/httpd.conf
 ```
