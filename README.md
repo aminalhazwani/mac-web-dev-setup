@@ -10,7 +10,7 @@ As a result, I took a clean install of my OS as an oppurtunity to write a good a
 - [Git](#git)
 - [Sublime Text](#sublime-text)
 - [Vim](#vim)
-- [Node.js](#node-js)
+- [Node.js](#node)
 - [Npm](#npm)
 - [Ruby](#ruby)
 - [Apache](#apache)
@@ -20,7 +20,7 @@ As a result, I took a clean install of my OS as an oppurtunity to write a good a
 ## [](terminal)Terminal
 We will spend a lot of time inside Terminal.app. So it's really advised to set up a nice and [solorized](http://ethanschoonover.com/solarized) command-line.
 You will find Terminal.app under `~/Applications/Utilities`.
-Running this commands will install `aliases`(a series of shorten commands), a `.bash_profile` and a `.bash_prompt` that will provide you a colorful and helpful terminal.
+Running this commands will place `.aliases`(a series of shorten commands), `.bash_profile` and `.bash_prompt` in your `/root` folder. It will provide you a colorful and more productive terminal.
 ```
 $ cd ~
 $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.aliases
@@ -131,7 +131,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.vim/c
 ```
 
 
-## [](#node-js)Node.js
+## [](#node)Node.js
 Install [Node.js](http://nodejs.org/) with Homebrew
 ```
 $ brew install node
