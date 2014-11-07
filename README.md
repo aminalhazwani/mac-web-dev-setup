@@ -27,7 +27,7 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.alias
 $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.bash_profile
 $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.bash_prompt
 ```
-I strongly suggest you to discover and play with all the shortcuts that you can now use. Have a look at the `.aliases` file [here](#).
+I strongly suggest you to discover and play with all the shortcuts that you can now use. Have a look at the `.aliases` file [here](https://github.com/aminalhazwani/dotfiles/blob/master/.aliases).
 
 We don't want to press SHIFT every time we have to type an uppercase letter. This simple hack will autocomplete the path for yous(while navigating with Terminal.app you can autocomplete your path pressing TAB).
 ```
@@ -57,7 +57,7 @@ brew doctor
 you should get: `Your system is ready to brew.`.
 
 ## [](#git)Git
-Git is an awesome tool for developers. To learn more about it and about its super powers I suggest you to read this [article](#).
+Git is an awesome tool for developers. To learn more about it and about its super powers I suggest you to look throw this [awesome resources](http://bradfrost.com/blog/post/gitgithub-resources/) collected by the awesome [Brad Frost](http://bradfrost.com/).
 
 To install Git run
 ```
@@ -98,7 +98,7 @@ My favorite packages are:
 - AdvancedNewFile
 
 ### Sublime Text User preferences
-One of the many factor that make Sublime Text my favorite text editor is user preferences. You can choose and tweak every single aspect. To use my preferences simply run this commands below. The user preferences file is simple plain text. Easy to read. If before installing you want to read it go and check it [here](#)
+One of the many factor that make Sublime Text my favorite text editor is user preferences. You can choose and tweak every single aspect. To use my preferences simply run this commands below. The user preferences file is simple plain text. Easy to read. If before installing you want to read it go and check it [here](https://github.com/aminalhazwani/dotfiles/blob/master/init/Preferences.sublime-settings)
 ```
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/init/Preferences.sublime-settings
@@ -112,7 +112,7 @@ $ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/
 
 
 ## [](#vim)Vim
-It can happen – from time to time – that you must edit a file on-the-code inside Terminal.app. And here is where [Vim](#) is helpuful. I prefer it over [nano](#). Both are two ways of coding and writing inside the command-line. To install it type this
+It can happen – from time to time – that you must edit a file on-the-code inside Terminal.app. And here is where [Vim](http://www.vim.org/) is helpuful. I prefer it over [nano](http://www.nano-editor.org/dist/v2.2/nano.html). Both are two ways of coding and writing inside the command-line. To install it type this
 ```
 $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -132,21 +132,21 @@ $ curl -O https://raw.githubusercontent.com/aminalhazwani/dotfiles/master/.vim/c
 
 
 ## [](#node-js)Node.js
-Install [Node.js](#) with Homebrew
+Install [Node.js](http://nodejs.org/) with Homebrew
 ```
 $ brew install node
 ```
 
-This command installs also the [npm](#) package manages. Node modules are installed locally in the `node_modules` folder of each project by default.
+This command installs also the [npm](https://www.npmjs.org/) package manages. Node modules are installed locally in the `node_modules` folder of each project by default.
 
-Some packages I couldn't live without are for example [Gulp.js](#) and [SASS](#). But let's keep this guide on simply setting everything necessary as web developer before diving in new and awesome tools.
+Some packages I couldn't live without are for example [Gulp.js](http://gulpjs.com/) and [SASS](http://sass-lang.com/). But let's keep this guide on simply setting everything necessary as web developer before diving in new and awesome tools.
 
 ## [](#npm)NPM
 To install a package the formula is
 ```
 $ npm install <package> 
 ```
-To read through all the possibilities offered by npm I suggest [this](#) guide. I hope I can manage to write soon a guide about getting started with Gulp.js and SASS. Subscribe to my [RSS](#) to stay tuned! 
+To learn about all the possibilities offered by npm I suggest [this](http://howtonode.org/introduction-to-npm) guide. I hope I can manage to write soon a guide about getting started with Gulp.js and SASS. Subscribe to my [RSS](http://aminalhazwani.com/feed.xml) to stay tuned! 
 
 ## [](#ruby)Ruby
 
